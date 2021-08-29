@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  flex-wrap: nowrap;
+  background-color: #fafafa;
+  justify-content: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.nav a {
+  padding: 5px;
+  text-decoration: none;
+  color: #23527c;
+}
+
+.active {
+  color: #23527c;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 350px) {
+  .nav a {
+    display: block;
+    text-align: center;
+  }
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

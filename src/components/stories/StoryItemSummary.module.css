@@ -1,0 +1,35 @@
+.story-item {
+  color: #23527c;
+  margin-top: 10px;
+  padding: 5px;
+  border-bottom: 1px black;
+  padding: 5px;
+  width: 100%;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.story-item > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.story-item > :last-child {
+  margin-left: 5px;
+}
+
+.story-item span {
+  font-size: 11px;
+  color: #808b96;
+}
+
+.story-item img {
+  width: 40px;
+  height: 40px;
+}
+
+.story-item a {
+  text-decoration: none;
+  color: inherit;
+}
