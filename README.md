@@ -8,6 +8,11 @@ This uses https://github.com/HackerNews/API to obtain the data.
 - Run `npm install` to install all dependencies.
 - Run `npm start` to start the development server.
 
+# Run with docker
+- Build docker image: `docker build . -t hacker-news`
+- Cross check if image is built successfully or not: `docker images`
+- Run the docker container: `docker run -d -p 8000:80 hacker-news`
+
 # Pending things
 - Need to write unit tests
 - Need to update the comments page (currently not showing child comments)
