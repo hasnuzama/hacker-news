@@ -1,3 +1,4 @@
+import classes from "./StoriesPage.module.css";
 import { useParams } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import StoryList from "../components/stories/StoryList";
@@ -51,6 +52,7 @@ const StoriesPage = () => {
     });
   }, [pageNumber, storyIds]);
 
+  // Handlers
   const nextClickHandler = () => {
     setPageNumber((previousState) => {
       return previousState + 1;
@@ -72,10 +74,13 @@ const StoriesPage = () => {
         )}
       <StoryList items={data} />
       <Container className="horizontal">
-        {pageNumber > 1 && !isLoading && (
-          <Button onClick={previousClickHandler}>Previous</Button>
-        )}
-        {!isLoading && <Button onClick={nextClickHandler}>Next</Button>}
+        <div className={classes["button-container"]}>
+          {pageNumber > 1 && !isLoading && (
+            <Button onClick={previousClickHandler}>Previous</Button>
+          )}
+
+          {!isLoading && <Button onClick={nextClickHandler}>Next</Button>}
+        </div>
       </Container>
     </div>
   );

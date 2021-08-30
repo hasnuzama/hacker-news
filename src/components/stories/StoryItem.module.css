@@ -36,3 +36,15 @@
   text-decoration: none;
   color: inherit;
 }
+
+@media screen and (max-width: 650px) {
+  .story-item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .story-item img {
+    display: none;
+  }
+}

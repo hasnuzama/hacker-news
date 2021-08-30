@@ -19,3 +19,9 @@
   text-decoration: none;
   color: inherit;
 }
+
+@media screen and (max-width: 350px) {
+  .story-item {
+    width: 100%;
+  }
+}
