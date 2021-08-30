@@ -6,13 +6,11 @@ const StoryItem: React.FC<{ item: ItemBean }> = (props) => {
   return (
     <div className={classes["story-item"]}>
       <div>
-        <img
-          src={`${process.env.PUBLIC_URL}/images/img${props.item.img}.jpg`}
-          alt={props.item.title}
-        />
-      </div>
-      <div>
         <div>
+          <img
+            src={`${process.env.PUBLIC_URL}/images/img${props.item.img}.jpg`}
+            alt={props.item.title}
+          />
           <a href={props.item.url} target="_blank" rel="noreferrer">
             {props.item.title}
           </a>
