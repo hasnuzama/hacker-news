@@ -17,6 +17,7 @@
 
 .story-item > :last-child {
   margin-left: 5px;
+  width: 100%;
 }
 
 .story-item span {
@@ -27,6 +28,8 @@
 .story-item img {
   width: 40px;
   height: 40px;
+  float: left;
+  margin-right: 5px;
 }
 
 .story-item a {

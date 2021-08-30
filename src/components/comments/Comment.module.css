@@ -29,6 +29,11 @@ code {
   word-wrap: break-word;
 }
 
+.story-item hr {
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
 @media screen and (max-width: 650px) {
   .story-item {
     width: 100%;
