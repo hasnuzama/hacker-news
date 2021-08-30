@@ -15,5 +15,6 @@ This uses https://github.com/HackerNews/API to obtain the data.
 
 # Pending things
 - Need to write unit tests
+- A bit of styling
 - Need to update the comments page (currently not showing child comments)
 - Need to fix image shown for each feed time. (Currently it is hard coded)
