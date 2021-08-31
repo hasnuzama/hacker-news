@@ -1,6 +1,7 @@
 # Intro
 This application provides new user interface to view news of ycombinator.
-This uses https://github.com/HackerNews/API to obtain the data.
+This uses https://github.com/HackerNews/API to obtain the data. This is also deployed on a server and publicly accessible using the link https://hackernews.hasnuzama.me
+
 
 # Run locally
 - Clone the repo
